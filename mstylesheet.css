@@ -112,8 +112,9 @@ body {
   padding-top: 1em;
   padding-right: 2em;
   padding-bottom: 1em;
-  text-align: right;
+  text-align: justify;
   font-size: 1.2em;
+  width: 100%;
   background-color: #000;
 }
 
