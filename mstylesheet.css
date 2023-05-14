@@ -42,12 +42,12 @@
   font-family: "poppins";
   font-weight: bold;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   background-color: #ffffff;
   border-color: black;
-  margin-top: 1em;
-  margin-right: 1em;
+  margin-top: 5em;;
+  margin-bottom: 30px;
   padding: 10px 20px 10px 20px;
   transition: all 0.3s ease-in-out;
 }
@@ -79,19 +79,16 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  display: block;
+  color: #ffffff;
+  width: 100%;
 }
 
 body {
   background: #1F1E1D;
   font-family: "Poppins";
-}
-
-.hero {
-  margin-top: 16%;
-  margin-bottom: 16%;
-  display: block;
-  color: #ffffff;
-  width: 100%;
 }
 
 .mynavbar {
@@ -115,7 +112,7 @@ body {
   text-align: justify;
   font-size: 1.2em;
   width: 100%;
-  background-color: #000;
+  background-color: #8f2828;
 }
 
 a, a:link, a:visited {
@@ -128,9 +125,8 @@ a, a:link, a:visited {
   font-size: 1.2em;
   text-transform: uppercase;
   font-weight: bold;
-  text-align: right;
+  text-align: center;
   margin-left: 2em;
-  width: 80px;
   transition: all 0.2s ease-in-out;
 }
 
@@ -143,8 +139,9 @@ a {
   background-image: linear-gradient(to right, #ffffff, #ffffff 50%, aqua 50%);
   background-size: 200% 100%;
   background-position: -100%;
-  display: inline-block;
+  display: block;
   font-weight: 800;
+  font-size: 30px;
   padding: 5px 0;
   position: relative;
   background-clip: text;
@@ -179,15 +176,17 @@ a {
   background-image: linear-gradient(to right, aqua, aqua 50%, #fff 50%);
   background-size: 200% 100%;
   background-position: -100%;
-  display: inline-block;
+  display: block;
   font-weight: 800;
-  padding: 5px 0;
+  font-size: 30px;
+  text-align: center;
+  padding: 5px 0 0px 0;
   position: relative;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
-  margin-left: 1.5em;
+  margin-left: 0;
 }
 
 /* Animation for bar underneath */
@@ -195,7 +194,6 @@ a {
   content: "";
   background: #fff;
   display: block;
-  position: absolute;
   bottom: -3px;
   left: 0;
   width: 0;
