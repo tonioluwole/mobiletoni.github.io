@@ -392,8 +392,8 @@ html {
 }
 
 .nav__toggle {
-  display: inline-block;
-  position: absolute;
+  display: block;
+  float: right;
   z-index: 10;
   padding: 0;
   border: 0;
@@ -405,6 +405,7 @@ html {
   border-radius: 50%;
   transition: background-color 0.15s linear;
 }
+
 .nav__toggle:hover, .nav__toggle:focus {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -412,7 +413,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: var(--screen-height);
+  height: 100%;
   position: relative;
   z-index: 5;
   visibility: hidden;
