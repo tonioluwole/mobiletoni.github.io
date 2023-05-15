@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');@keyframes spin {
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');@keyframes spin {
   20% {
     content: "Designer";
   }
@@ -31,7 +31,7 @@
 }
 
 #poppinsmain {
-  font-family: "Open Sans";
+  font-family: "Playfair Display";
   font-weight: bold;
   font-size: 35px;
   color: #ffffff;
@@ -39,7 +39,7 @@
 }
 
 #contactbutton {
-  font-family: "Open Sans";
+  font-family: "Playfair Display";
   font-weight: bold;
   cursor: pointer;
   font-size: 30px;
@@ -72,7 +72,7 @@
 #hero {
   font-size: 150px;
   font-weight: bold;
-  font-family: "Open Sans";
+  font-family: "Playfair Display";
 }
 
 .hero {
@@ -88,7 +88,7 @@
 
 html {
   background: #1F1E1D;
-  font-family: "Open Sans";
+  font-family: "Playfair Display";
 }
 
 .mynavbar {
@@ -344,7 +344,7 @@ html {
 }
 
 button #pdfbutton{
-  font-family: "Open Sans";
+  font-family: "Playfair Display";
   cursor: pointer;
   font-size: 30px;
   text-align: center;
