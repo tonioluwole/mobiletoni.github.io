@@ -33,6 +33,7 @@
 
 #poppinsmain {
   font-family: "Open Sans";
+  font-weight: bold;
   font-size: 35px;
   color: #ffffff;
   margin-top: -20px;
@@ -89,6 +90,7 @@
 html {
   background: #1F1E1D;
   font-family: "Open Sans";
+  font-weight: bold;
 }
 
 .mynavbar {
