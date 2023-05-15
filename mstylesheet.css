@@ -313,15 +313,12 @@ p {
   margin-top: 3em;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 75%;
 }
 
 #gridcontainer {
   margin-left: auto;
   margin-right: auto;
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  gap: 50px;
 }
 
 #paragraph {
