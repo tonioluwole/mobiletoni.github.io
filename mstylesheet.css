@@ -1,5 +1,8 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');@keyframes spin {
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+@keyframes spin {
   20% {
     content: "Designer";
   }
