@@ -342,3 +342,17 @@ html {
   color: #fff;
   display: none;
 }
+
+#pdfbutton{
+  font-family: "Open Sans";
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 30px;
+  text-align: center;
+  background-color: #ffffff;
+  border-color: black;
+  margin-top: 5em;;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  transition: all 0.3s ease-in-out;
+}
