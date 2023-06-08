@@ -75,7 +75,7 @@
 #hero {
   font-size: 125px;
   font-weight: bold;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 .hero {
@@ -239,12 +239,14 @@ a {
 h1 {
   text-align: center;
   font-size: 4rem;
+  font-family: 'Poppins';
   color: aqua;
 }
 
 h2 {
   font-weight: bold;
   font-size: 2rem;
+  font-family: 'Poppins';
   color: white;
 }
 
