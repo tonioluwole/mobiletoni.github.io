@@ -34,7 +34,7 @@
 }
 
 #poppinsmain {
-  font-family: "Poppins";
+  font-family: "Tahoma";
   font-weight: bold;
   font-size: 35px;
   color: #ffffff;
@@ -42,7 +42,7 @@
 }
 
 #contactbutton {
-  font-family: "Poppins";
+  font-family: "Tahoma";
   font-weight: bold;
   cursor: pointer;
   font-size: 30px;
@@ -75,7 +75,7 @@
 #hero {
   font-size: 125px;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: 'Tahoma';
 }
 
 .hero {
@@ -91,7 +91,7 @@
 
 html {
   background: #1F1E1D;
-  font-family: "Poppins";
+  font-family: "Tahoma";
 }
 
 .mynavbar {
@@ -239,14 +239,14 @@ a {
 h1 {
   text-align: center;
   font-size: 4rem;
-  font-family: 'Poppins';
+  font-family: 'Tahoma';
   color: aqua;
 }
 
 h2 {
   font-weight: bold;
   font-size: 2rem;
-  font-family: 'Poppins';
+  font-family: 'Tahoma';
   color: white;
 }
 
@@ -308,7 +308,7 @@ html {
 }
 
 #pdfbutton {
-  font-family: 'poppins'; 
+  font-family: 'Tahoma'; 
   font-weight: bold;
   color: #000;
   cursor: pointer;
