@@ -14,18 +14,56 @@
         }
     </script>
 
+    <script>
+        let burger = document.getElementById('burger'),
+            nav    = document.getElementById('main-nav');
+
+        burger.addEventListener('click', function(e){
+            this.classList.toggle('is-open');
+            nav.classList.toggle('is-open');
+        });
+
+        /* Onload demo - dirty timeout */
+        let clickEvent = new Event('click');
+
+        window.addEventListener('load', function(e) {
+            burger.dispatchEvent(clickEvent);
+            
+                setTimeout(function(){
+                burger.dispatchEvent(clickEvent);
+                
+            }, 5500);
+        });
+    </script>
+
 
     <head>
         <title>Toni Oluwole</title>
         <link rel="icon" type="image/x-icon" href="images/Favicon.ico">
-        <!--<nav id="navanchor" class="navMenu">
-            <a href="index.html">Home</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#resume">Resume</a>
-            <a href="https://github.com/tonioluwole" target="_blank">Github</a>
-            <a href="https://linkedin.com/in/tonioluwole" target="_blank">LinkedIn</a>
-            <div class="dot"></div>
-        </nav>-->
+            <div class="device">
+                <div class="container">
+                    <button id="burger" class="open-main-nav">
+                        <span class="burger"></span>
+                        <span class="burger-text">Menu</span>
+                    </button>
+                    <nav class="main-nav" id="main-nav">
+                        <ul>
+                            <li>
+                                <a href="#">Work</a>
+                            </li>
+                            <li>
+                                <a href="#">About Me</a>
+                            </li>
+                            <li>
+                                <a href="#">Languages</a>
+                            </li>
+                            <li>
+                                <a href="#">Resume</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+        </div>
     </head>
     <!--========================== start of body ==========================-->
     <body>
