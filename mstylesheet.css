@@ -6,13 +6,13 @@
 
 @keyframes spin {
   20% {
-    content: "Designer";
+    content: "Tech Enthusiast";
   }
   40% {
-    content: "Freelancer";
+    content: "Writer";
   }
   60% {
-    content: "Programmer";
+    content: "Quick Learner";
   }
   80% {
     content: "Developer";
@@ -65,7 +65,7 @@
 }
 
 #spin {
-  color: aqua;
+  color: white;
 }
 
 #spin:after {
@@ -241,7 +241,7 @@ a {
 
 h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
   color: aqua;
   font-weight: normal;
